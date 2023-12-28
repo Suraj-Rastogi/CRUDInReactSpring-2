@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="employees_table")
 public class Employees {
-	//test changes
+	//test changes in 2 crud
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
